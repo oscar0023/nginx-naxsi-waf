@@ -37,8 +37,8 @@ Projet de cybersécurité consacré à la conception, au déploiement et à l'é
 Les tests seront réalisés sur des machines et applications de laboratoire autorisées.
 
 ## Auteur
-
-Étudiant ingénieur en cybersécurité.
+### Oscar ALIDJINOU
+Étudiant ingénieur en Sécurité IT & Confiance Numérique.
 
 ## Avertissement
 
