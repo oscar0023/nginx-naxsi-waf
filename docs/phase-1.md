@@ -1,4 +1,4 @@
-# Phase 1 — Préparation du laboratoire
+# Phase 1 — Préparation du laboratoire et reverse proxy
 
 ## 1. Objectif
 
