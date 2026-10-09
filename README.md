@@ -2,16 +2,18 @@
 
 ## Présentation
 
-Projet de cybersécurité consacré à la conception, au déploiement et à l'évaluation d'un Web Application Firewall open source basé sur NGINX et NAXSI.
+Ce projet consiste à concevoir, déployer et évaluer un Web Application Firewall (WAF) open source basé sur NGINX et NAXSI.
+
+L'objectif est de protéger une application web contre plusieurs catégories d'attaques et d'étudier les mécanismes de détection, de blocage et de journalisation.
 
 ## Objectifs
 
-* Comprendre le fonctionnement d'un WAF.
 * Déployer NGINX comme reverse proxy.
-* Intégrer des règles de protection avec NAXSI.
-* Tester la détection des attaques web courantes.
+* Intégrer NAXSI.
+* Configurer et personnaliser les règles de sécurité.
+* Tester la détection des attaques web.
 * Analyser les journaux de sécurité.
-* Évaluer les performances et les faux positifs.
+* Mesurer les performances et les faux positifs.
 
 ## Technologies
 
@@ -20,21 +22,30 @@ Projet de cybersécurité consacré à la conception, au déploiement et à l'é
 * NAXSI
 * OWASP Top 10
 * OWASP ZAP
-* Git et GitHub
+* GitHub
 
-## Progression
+## Architecture
+
+Kali Linux (tests) → NGINX + NAXSI (WAF) → Application web de test.
+
+## Progression du projet
 
 * [x] Phase 1 — Préparation du laboratoire et reverse proxy
 * [ ] Phase 2 — Installation et intégration de NAXSI
 * [ ] Phase 3 — Configuration des règles de sécurité
-* [ ] Phase 4 — Tests des attaques web
+* [ ] Phase 4 — Tests de sécurité web
 * [ ] Phase 5 — Journalisation et analyse
 * [ ] Phase 6 — Évaluation des performances
 * [ ] Phase 7 — Rapport final
 
+## Documentation
+
+* [Phase 1 — Préparation du laboratoire](docs/phase-1.md)
+* [Architecture du laboratoire](docs/architecture.md)
+
 ## Environnement de test
 
-Les tests seront réalisés sur des machines et applications de laboratoire autorisées.
+Les tests seront effectués exclusivement sur des systèmes de laboratoire autorisés.
 
 ## Auteur
 ### Oscar ALIDJINOU
@@ -42,4 +53,4 @@ Les tests seront réalisés sur des machines et applications de laboratoire auto
 
 ## Avertissement
 
-Ce projet est destiné à l'apprentissage et aux tests de sécurité dans un environnement contrôlé.
+Ce projet est destiné à l'apprentissage et à l'évaluation de la sécurité dans un environnement contrôlé.
