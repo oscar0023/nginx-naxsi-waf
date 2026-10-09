@@ -31,7 +31,7 @@ Kali Linux (tests) → NGINX + NAXSI (WAF) → Application web de test.
 ## Progression du projet
 
 * [x] Phase 1 — Préparation du laboratoire et reverse proxy
-* [ ] Phase 2 — Installation et intégration de NAXSI
+* [x] Phase 2 — Installation et intégration de NAXSI
 * [ ] Phase 3 — Configuration des règles de sécurité
 * [ ] Phase 4 — Tests de sécurité web
 * [ ] Phase 5 — Journalisation et analyse
