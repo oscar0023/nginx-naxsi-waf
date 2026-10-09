@@ -284,13 +284,7 @@ sudo systemctl status web-test --no-pager
 - Le backend Python est un serveur de test simple et ne représente pas à lui seul une application Web vulnérable réaliste.
 - La validation de vulnérabilités applicatives nécessitera une application de test dédiée lors de la phase 4.
 
-## 9. Captures d'écran
-
-Les captures attendues pour cette phase sont répertoriées dans `screenshots/README.md`.
-
-Les captures doivent présenter des résultats réellement obtenus et rester lisibles. Aucune capture ne doit être fabriquée ou présentée comme une preuve si le test correspondant n'a pas été exécuté.
-
-## 10. Conclusion
+## 9. Conclusion
 
 Cette phase a permis d'étudier les règles principales de NAXSI, de comprendre les scores par catégorie et d'observer le blocage de tests SQL Injection, XSS, RFI et Directory Traversal.
 
