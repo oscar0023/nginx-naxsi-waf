@@ -12,8 +12,6 @@ Objectifs :
 - tester des requêtes légitimes et des requêtes de laboratoire SQLi/XSS ;
 - examiner les journaux et conserver des preuves reproductibles.
 
-> Les essais sont limités au laboratoire contrôlé. Ne pas exécuter ces tests sur un système sans autorisation explicite.
-
 ## 2. Environnement du laboratoire
 
 | Élément | Valeur observée |
