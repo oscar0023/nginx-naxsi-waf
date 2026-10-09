@@ -2,36 +2,47 @@
 
 ## 1. Objectif
 
-Mettre en place un laboratoire de sécurité web avec NGINX utilisé comme reverse proxy devant un backend HTTP.
+Mettre en place un laboratoire de sécurité web dans lequel NGINX agit comme reverse proxy devant un backend HTTP.
 
-## 2. Environnement technique
+## 2. Environnement
 
-* Kali Linux : machine de test.
-* Ubuntu Server : serveur WAF.
-* NGINX : reverse proxy HTTP.
-* Python HTTP Server : backend temporaire de test.
+* Kali Linux : machine utilisée pour effectuer les tests.
+* Ubuntu Server : machine hébergeant NGINX.
+* NGINX : reverse proxy sur le port 80.
+* Python HTTP Server : backend temporaire sur le port 3000.
 
-## 3. Architecture
+## 3. Architecture déployée
 
-Kali Linux → NGINX (port 80) → Backend Python (port 3000).
+Kali Linux → NGINX → Backend Python.
 
-## 4. Travaux réalisés
+Le client Kali envoie une requête HTTP à l'adresse du serveur NGINX. NGINX transmet ensuite la requête au backend Python.
 
+## 4. Configuration réseau
+
+* Adresse du serveur NGINX : `192.168.195.146`
+* Port d'entrée HTTP : `80`
+* Port du backend : `3000`
+
+## 5. Travaux réalisés
+
+* Vérification de la connectivité entre Kali et Ubuntu.
 * Installation et vérification de NGINX.
 * Configuration du reverse proxy.
-* Démarrage du backend HTTP.
-* Test de connectivité depuis Kali Linux.
+* Démarrage du backend HTTP Python.
+* Test de l'accès au service depuis Kali.
 * Vérification de la réponse HTTP 200 OK.
-* Consultation des journaux NGINX.
+* Observation des journaux d'accès NGINX.
 
-## 5. Résultats
+## 6. Résultat
 
-Le reverse proxy transmet correctement les requêtes HTTP vers le backend de test.
+Le reverse proxy fonctionne : les requêtes envoyées depuis Kali à NGINX sont transmises au backend Python.
 
-## 6. Limites
+## 7. Limites
 
-Le backend Python est temporaire et ne constitue pas une application de production. NAXSI n'est pas encore intégré.
+Le serveur Python est utilisé uniquement comme backend temporaire de test. Il ne constitue pas une application de production.
 
-## 7. Prochaine étape
+NAXSI n'est pas encore intégré. La détection et le blocage des attaques seront évalués dans les phases suivantes.
 
-Installer et intégrer NAXSI afin de détecter et bloquer les requêtes web malveillantes dans un laboratoire contrôlé.
+## 8. Prochaine étape
+
+Installer et intégrer NAXSI à NGINX, puis vérifier son fonctionnement à l'aide de requêtes de test contrôlées.
