@@ -225,20 +225,7 @@ Pour interpréter correctement un événement, rapprocher l'heure, la requête, 
 - Le laboratoire utilise HTTP ; TLS n'est pas encore configuré.
 - Les captures d'écran sont des preuves complémentaires : la configuration et les commandes reproductibles restent indispensables.
 
-## 11. Checklist de clôture
-
-- [ ] `sudo nginx -t` réussit.
-- [ ] Une requête légitime renvoie `200 OK`.
-- [ ] La détection SQLi est visible dans les journaux.
-- [ ] Le blocage SQLi renvoie `403 Forbidden`.
-- [ ] La détection XSS est visible dans les journaux.
-- [ ] Le code HTTP du test XSS est vérifié et documenté.
-- [ ] Le service backend est actif et lié à `127.0.0.1:3000`.
-- [ ] Les captures sont enregistrées dans `screenshots/`.
-- [ ] `screenshots/README.md` décrit chaque capture.
-- [ ] Aucun secret ni donnée sensible n'est publié.
-
-## 12. Conclusion
+## 11. Conclusion
 
 La phase 2 a permis d'intégrer NAXSI à NGINX et de valider la détection de requêtes de test SQLi et XSS. Le blocage SQLi a été confirmé par une réponse `403 Forbidden`, tandis qu'une requête légitime atteint le backend. Pour le test XSS, la documentation doit distinguer la détection dans le journal du blocage effectif et inclure le code HTTP observé.
 
