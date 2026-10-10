@@ -21,7 +21,6 @@ L'objectif est de protéger une application web contre plusieurs catégories d'a
 * NGINX
 * NAXSI
 * OWASP Top 10
-* OWASP ZAP
 * GitHub
 
 ## Architecture
