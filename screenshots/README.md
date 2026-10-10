@@ -63,7 +63,14 @@
 <img width="917" height="311" alt="image" src="https://github.com/user-attachments/assets/65640804-16ff-4198-91fc-d048862671c5" />
 <img width="919" height="371" alt="image" src="https://github.com/user-attachments/assets/edc03324-87d3-4f6c-a4b4-32866f55255a" />
 
-### Command Injection
+### Directory Traversal / RFI
+<img width="1365" height="257" alt="image" src="https://github.com/user-attachments/assets/20789643-0c38-452c-b8bd-b6c05579da39" />
+<img width="917" height="267" alt="image" src="https://github.com/user-attachments/assets/5425c900-6803-45b7-8474-97d4bd2870be" />
+<img width="918" height="336" alt="image" src="https://github.com/user-attachments/assets/519fc3cf-c174-4cb2-aae1-1cccfe5c0572" />
+
+### EVADE
+<img width="918" height="262" alt="image" src="https://github.com/user-attachments/assets/96da8d43-9baf-47a3-84eb-b810971d487b" />
+<img width="917" height="289" alt="image" src="https://github.com/user-attachments/assets/e65ce066-b0ed-4355-8b6f-72e0a4ea3a7e" />
 
 
 
