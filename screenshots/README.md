@@ -59,9 +59,11 @@
 <img width="918" height="369" alt="image" src="https://github.com/user-attachments/assets/6863e30b-260b-4764-a829-8ed840ba3796" />
 
 ### Directory Traversal / LFI
-<img width="1365" height="240" alt="image" src="https://github.com/user-attachments/assets/7986aa5c-276f-4892-8af4-13d5d608f57c" />
-<img width="918" height="270" alt="image" src="https://github.com/user-attachments/assets/97d75084-968e-42a3-a6cf-bc7e607f8493" />
-<img width="917" height="388" alt="image" src="https://github.com/user-attachments/assets/4682fe81-3caa-4043-8eef-c56e04fea2e9" />
+<img width="1365" height="239" alt="image" src="https://github.com/user-attachments/assets/497e2e4e-074a-439f-a963-5863303c38fd" />
+<img width="917" height="311" alt="image" src="https://github.com/user-attachments/assets/65640804-16ff-4198-91fc-d048862671c5" />
+<img width="919" height="371" alt="image" src="https://github.com/user-attachments/assets/edc03324-87d3-4f6c-a4b4-32866f55255a" />
+
+### Command Injection
 
 
 
