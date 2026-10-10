@@ -47,10 +47,12 @@
 <img width="1365" height="400" alt="image" src="https://github.com/user-attachments/assets/7d254fe8-280e-4226-b05a-0c713622bfdf" />
 <img width="1365" height="256" alt="image" src="https://github.com/user-attachments/assets/91be6ade-0db8-49a6-bccf-78de727dcf33" />
 <img width="918" height="319" alt="image" src="https://github.com/user-attachments/assets/11aabc06-d77f-4a10-87fc-f4867eb94767" />
+
 ### xss(dom)
 <img width="1365" height="350" alt="image" src="https://github.com/user-attachments/assets/ffcbab19-68f4-45a1-b0a1-1a84b9be2ced" />
 <img width="1365" height="247" alt="image" src="https://github.com/user-attachments/assets/59cf01c2-d6a2-48a4-b9d7-1c9cb1ef48c5" />
 <img width="917" height="347" alt="image" src="https://github.com/user-attachments/assets/03a54971-35cc-485d-ae52-f0c7b0ede618" />
+
 ### xss(reflected)
 <img width="1365" height="373" alt="image" src="https://github.com/user-attachments/assets/35850c74-92a8-43e5-b97b-f7492a667849" />
 <img width="1365" height="246" alt="image" src="https://github.com/user-attachments/assets/0a19b9dc-b009-4897-aa41-830fc154d6c8" />
