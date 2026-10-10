@@ -13,7 +13,7 @@ L'objectif est de protéger une application web contre plusieurs catégories d'a
 * Configurer et personnaliser les règles de sécurité.
 * Tester la détection des attaques web.
 * Analyser les journaux de sécurité.
-* Mesurer les performances et les faux positifs.
+* Mesurer les performances.
 
 ## Technologies
 
