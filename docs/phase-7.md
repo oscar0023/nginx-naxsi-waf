@@ -1,4 +1,4 @@
-# Phase 7 — Mesure des performances
+# Phase 7 — Évaluation des performances
 
 ## 1. Objectif
 
