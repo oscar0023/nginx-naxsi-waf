@@ -58,6 +58,10 @@
 <img width="1365" height="246" alt="image" src="https://github.com/user-attachments/assets/0a19b9dc-b009-4897-aa41-830fc154d6c8" />
 <img width="918" height="369" alt="image" src="https://github.com/user-attachments/assets/6863e30b-260b-4764-a829-8ed840ba3796" />
 
+### Directory Traversal / LFI
+<img width="1365" height="240" alt="image" src="https://github.com/user-attachments/assets/7986aa5c-276f-4892-8af4-13d5d608f57c" />
+<img width="918" height="270" alt="image" src="https://github.com/user-attachments/assets/97d75084-968e-42a3-a6cf-bc7e607f8493" />
+<img width="917" height="388" alt="image" src="https://github.com/user-attachments/assets/4682fe81-3caa-4043-8eef-c56e04fea2e9" />
 
 
 
