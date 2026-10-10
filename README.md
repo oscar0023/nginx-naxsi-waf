@@ -34,7 +34,7 @@ Kali Linux (tests) → NGINX + NAXSI (WAF) → Application web de test.
 * [x] Phase 2 — Installation et intégration de NAXSI
 * [x] Phase 3 — Compréhension des règles NAXSI
 * [x] Phase 4 — Déploiement de DVWA derrière NGINX et NAXSI
-* [ ] Phase 5 — Tests de sécurité web
+* [x] Phase 5 — Tests de sécurité web
 * [ ] Phase 6 — Journalisation et analyse
 * [ ] Phase 7 — Évaluation des performances
 * [ ] Phase 8 — Rapport final
