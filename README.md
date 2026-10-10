@@ -36,8 +36,8 @@ Kali Linux (tests) → NGINX + NAXSI (WAF) → Application web de test.
 * [x] Phase 4 — Déploiement de DVWA derrière NGINX et NAXSI
 * [x] Phase 5 — Tests de sécurité web
 * [x] Phase 6 — Journalisation et analyse
-* [ ] Phase 7 — Évaluation des performances
-* [ ] Phase 8 — Rapport final
+* [x] Phase 7 — Évaluation des performances
+* [x] Phase 8 — Rapport final
 
 ## Documentation
 
@@ -47,6 +47,8 @@ Kali Linux (tests) → NGINX + NAXSI (WAF) → Application web de test.
 * [Phase 4 — Déploiement de DVWA derrière NGINX et NAXSI](docs/phase-4.md)
 * [Phase 5 — Tests de sécurité web](docs/phase-5.md)
 * [Phase 6 — Journalisation et analyse](docs/phase-6.md)
+* [Phase 7 — Évaluation des performances](docs/phase-7.md)
+* [Phase 8 — Rapport final](rapport_waf.pdf)
 * [Architecture du laboratoire](docs/architecture.md)
 
 ## Environnement de test
