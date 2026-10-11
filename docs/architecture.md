@@ -6,8 +6,6 @@ Ce projet déploie un Web Application Firewall (WAF) devant une application web 
 
 Le laboratoire couvre des scénarios contrôlés de SQL Injection (SQLi), Cross-Site Scripting (XSS), traversal/LFI, requêtes de type RFI et techniques d'évasion. Les événements sont examinés dans les journaux NGINX et une première comparaison des temps de réponse est effectuée.
 
-> **Périmètre de sécurité :** DVWA est volontairement vulnérable. Garder ce laboratoire isolé et ne pas exposer l'application vulnérable sur Internet. Ne tester que des systèmes détenus ou explicitement autorisés.
-
 ## 2. Architecture logique
 
 ```mermaid
