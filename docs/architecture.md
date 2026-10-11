@@ -159,5 +159,3 @@ Pour consolider les conclusions, il est recommandé de répéter plusieurs séri
 Le laboratoire met en place une architecture de défense composée de NGINX comme point d'entrée HTTP, de NAXSI pour l'inspection et le blocage des requêtes, de DVWA comme application backend de test et des journaux pour l'analyse des événements.
 
 Plusieurs scénarios contrôlés ont été bloqués et consignés. Une première campagne de mesures a fourni une référence initiale des temps de réponse, qui doit être consolidée par des essais complémentaires.
-
-**État du projet :** architecture déployée dans le laboratoire, tests de détection et de blocage exécutés, journalisation analysée et première campagne de performance réalisée. Les résultats restent limités au périmètre et aux conditions de ce laboratoire.
