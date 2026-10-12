@@ -56,7 +56,7 @@ Les tests seront effectués exclusivement sur des systèmes de laboratoire autor
 
 ## Auteur
 ### Oscar ALIDJINOU
-Étudiant ingénieur en Sécurité IT & Confiance Numérique.
+Élève ingénieur en Sécurité IT & Confiance Numérique.
 
 ## Avertissement
 
